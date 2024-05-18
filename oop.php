@@ -80,11 +80,11 @@ echo "available copy after borrow....\n";
 $member1->borrowBook($book1,1);
 $member1->borrowBook($book2,1);
 
-echo "available copy after return...\n";
+/*echo "available copy after return...\n";
 $member1->returnBook($book1,1);
 $member1->returnBook($book2,1);
 echo $book1->getAvailableCopies();
-echo $book2->getAvailableCopies();
+echo $book2->getAvailableCopies();*/
 // TODO: Print Available Copies with their names:
 
 
